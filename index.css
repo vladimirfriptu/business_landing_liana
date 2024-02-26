@@ -14,7 +14,7 @@ max-width: 1024px;
     list-style: none;
     padding: 0;
    }
-   nav ul li{
+   nav ul li {
     display: inline-block;
     margin-right: 2rem;
    }
@@ -23,5 +23,9 @@ max-width: 1024px;
     color: black;
     font-weight: 700;
    }
+   .list:hover {
+    background-image: linear-gradient( 45%, aqua, rgb(230, 0, 255)) ;
+   }
+  
   
 
