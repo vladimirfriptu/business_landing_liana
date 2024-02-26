@@ -5,26 +5,34 @@
    header {
 margin: auto;
 max-width: 1024px;
+display: flex;
+justify-content: space-between;
+align-items: center;
    }
    img {
-    width: 5%;
+    width: 10%;
     height: auto;
    }
    nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
    }
    nav ul li {
     display: inline-block;
-    margin-right: 2rem;
+    margin-right: 1rem;
+    gap: 1rem;
    }
    li a {
     text-decoration: none;
     color: black;
     font-weight: 700;
+    padding: 10px;
+    white-space: nowrap;
+    border-radius: 5px;
    }
-   .list:hover {
-    background-image: linear-gradient( 45%, aqua, rgb(230, 0, 255)) ;
+   li a:hover {
+    background-color: rgb(17, 244, 180) ;
    }
   
   
