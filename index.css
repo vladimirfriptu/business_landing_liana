@@ -62,11 +62,12 @@ align-items: center;
   }
 input {
 display: inline-block;
-width: 100%;
 padding: 8px;
 margin-bottom: 10px;
 border: 1px solid #ccc;
+gap: 5px;
 }
+
 form {
 display: flex;
 /*max-width: 300px;*/
@@ -88,8 +89,8 @@ padding: 10px;
 background-color: #007bff;
 color: #fff;
 border: none;
-display: flex;
-align-items: center;
+display: inline-block;
+/*align-items: center;*/
 }
 button:hover {
 background-color: #b3009e;
