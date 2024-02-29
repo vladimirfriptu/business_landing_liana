@@ -2,7 +2,7 @@
         box-sizing: border-box;
     }
 
-   header {
+  header {
 margin: auto;
 max-width: 1024px;
 display: flex;
@@ -34,7 +34,7 @@ align-items: center;
    li a:hover {
     background-color: rgb(17, 244, 180) ;
    }
-   section{
+    .buylb {
     text-align: center;
     background-color: rgb(82, 156, 203);
     color: azure;
@@ -98,5 +98,11 @@ background-color: #b3009e;
 button:focus{
 box-shadow: 0 0 5px aquamarine;
 }
-  
-
+h2,h5{
+  display: block;
+  text-align: center;
+}
+.Service1{
+  display: block;
+  text-align: start;
+}
