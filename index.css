@@ -1,108 +1,147 @@
-    *{
-        box-sizing: border-box;
+    * {
+      box-sizing: border-box;
     }
 
-  header {
-margin: auto;
-max-width: 1024px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-   }
-   img {
-    width: 10%;
-    height: auto;
-   }
-   nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-   }
-   nav ul li {
-    display: inline-block;
-    margin-right: 1rem;
-    gap: 1rem;
-   }
-   li a {
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
-    padding: 10px;
-    white-space: nowrap;
-    border-radius: 5px;
-   }
-   li a:hover {
-    background-color: rgb(17, 244, 180) ;
-   }
-    .buylb {
-    text-align: center;
-    background-color: rgb(82, 156, 203);
-    color: azure;
-    width: 100%;
-    height: auto;
-    padding-top: 25px;
-    padding-bottom: 15px;
-  }
-  h1{
-    font-weight: bold;
-  }
-  h4{
-    line-height: 0px;
-  }
-   label{
-   display: inline-block;
-  }
-  button{
-  background-color: rgb(255, 123, 0);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  color: #ffffff;
-  }
-input {
-display: inline-block;
-padding: 8px;
-margin-bottom: 10px;
-border: 1px solid #ccc;
-gap: 5px;
-}
+    header {
+      margin: auto;
+      max-width: 1024px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-form {
-display: flex;
-/*max-width: 300px;*/
-margin: 0 auto;
-justify-content: space-between;
-flex-direction: row;
-align-items: center;
-margin-bottom: 10px;
-}
-div {
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-bottom: 10px;
-}
-button {
-width: 100%;
-padding: 10px;
-background-color: #007bff;
-color: #fff;
-border: none;
-display: inline-block;
-/*align-items: center;*/
-}
-button:hover {
-background-color: #b3009e;
-}
-button:focus{
-box-shadow: 0 0 5px aquamarine;
-}
-h2,h5{
-  display: block;
-  text-align: center;
-}
-.Service1{
-  display: block;
-  text-align: start;
-}
+    img {
+      width: 10%;
+      height: auto;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 1rem;
+      gap: 1rem;
+    }
+
+    li a {
+      text-decoration: none;
+      color: black;
+      font-weight: 700;
+      padding: 10px;
+      white-space: nowrap;
+      border-radius: 5px;
+    }
+
+    li a:hover {
+      background-color: rgb(17, 244, 180);
+    }
+
+    .buylb {
+     
+      background-color: rgb(82, 156, 203);
+      color: azure;
+      width: 100%;
+      height: auto;
+      padding-top: 25px;
+      padding-bottom: 15px;
+    }
+    .buylb > div{
+
+      max-width: max-content;
+      margin: 0 auto;
+      text-align: center;
+      
+    }
+    h1 {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    h4 {
+      margin-top: 15px;
+    }
+
+    label {
+      display: inline-block;
+    }
+
+    button {
+      background-color: rgb(255, 123, 0);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: #ffffff;
+    }
+
+    input {
+      display: inline-block;
+      padding: 8px;
+      /*argin-bottom: 10px;*/
+      border: 1px solid #ccc;
+      gap: 5px;
+    }
+
+    form {
+      display: flex;
+      /*max-width: 300px;*/
+      margin: 0 auto;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 10px;
+      gap: 10px;
+    }
+
+    /*div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }*/
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      display: inline-block;
+      /*align-items: center;*/
+    }
+
+    button:hover {
+      background-color: #b3009e;
+    }
+
+    button:focus {
+      box-shadow: 0 0 5px aquamarine;
+    }
+
+    h2,
+    h5 {
+      display: block;
+      text-align: center;
+    }
+
+    .Service1 {
+      display: block;
+      text-align: start;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .card {
+      display: flex;
+    }
+    .card p{
+      background-color: #b3009e;
+    }
+    .card img{
+      width: 60px;
+    
+    }
