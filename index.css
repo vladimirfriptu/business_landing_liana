@@ -56,6 +56,22 @@
       text-align: center;
       
     }
+    .custom_input{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background: white;
+      border: solid 1px silver;
+      padding-left: 8px;
+    }
+    .custom_input input{
+      background: transparent;
+      border: none;
+     outline: none;
+    }
+    .custom_input img{
+      width: 14px;
+    }
     h1 {
       font-weight: bold;
       margin-bottom: 5px;
