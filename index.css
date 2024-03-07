@@ -78,7 +78,7 @@
     }
 
     h4 {
-      margin-top: 15px;
+      margin-top: 5px;
     }
 
     label {
@@ -123,7 +123,7 @@
     button {
       width: 100%;
       padding: 10px;
-      background-color: #007bff;
+      background-color: #ff9500;
       color: #fff;
       border: none;
       display: inline-block;
@@ -131,7 +131,7 @@
     }
 
     button:hover {
-      background-color: #b3009e;
+      background-color: #05b0ff;
     }
 
     button:focus {
