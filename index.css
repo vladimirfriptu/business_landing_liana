@@ -186,7 +186,6 @@
     }
     .picture{
      float: left;
-     /*object-fit: cover;*/
      padding-right: 60px;
     }
     .desktop{
@@ -202,21 +201,25 @@ margin-top: 20px;
 padding-bottom: 99px;
     }
     .info{
-      padding-top: 100px;
+      padding-top: 75px;
       padding-left: 50px;
       padding-right: 250px;
       color: #ffffff;
     }
-    /*h2,p{
-      text-align: start;
-    }*/
-    
+    .industry{
+      text-align: left;
+    }
  .read_more{
-  width: 100%;
+  width: 10%;
       padding: 10px;
-     
-      border: none;
+     background-color: #ff9807;
+      color: #ffffff;
+      border: 2px solid rgb(185, 117, 44);
  }
- button{
-  background: transparent;
+ .read_more:hover{
+ border: 2px solid aqua;
+ border-radius: 5px;
+ }
+ .industry{
+  padding-bottom: 25px;
  }
