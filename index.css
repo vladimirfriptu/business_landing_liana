@@ -40,7 +40,7 @@
     }
 
     li a:hover {
-      background-color: rgb(17, 244, 180);
+      background-color: rgb(241, 145, 20);
     }
 
     .buylb {
@@ -127,7 +127,7 @@
     }
 
     .request:focus {
-      box-shadow: 0 0 5px aquamarine;
+      box-shadow: 0 0 5px rgb(7, 230, 234);
     }
     h2,
     h5 {
