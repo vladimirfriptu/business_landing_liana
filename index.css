@@ -185,7 +185,6 @@
       margin-bottom: 5px;
     }
     .picture{
-     float: left;
      padding-right: 60px;
     }
     .desktop{
@@ -197,7 +196,10 @@
       background-color: #ff9500;
 text-transform: capitalize;
 margin-top: 20px;
-padding-bottom: 99px;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+
     }
     .info{
       padding-top: 75px;
@@ -209,7 +211,7 @@ padding-bottom: 99px;
       text-align: left;
     }
  .read_more{
-  width: 10%;
+  width: 180px;
       padding: 10px;
      background-color: #ff9807;
       color: #ffffff;
@@ -225,6 +227,10 @@ padding-bottom: 99px;
  .choos_your_price{
   margin-bottom: 150px;
   background-color: rgb(215, 251, 251);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
  }
  .caption{
  padding-top: 50px;
@@ -235,7 +241,7 @@ padding-bottom: 99px;
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-start;
-  margin-right: 350px;
+ 
  }
  .subtitle{
  text-align: center;
@@ -249,7 +255,6 @@ padding-bottom: 99px;
   width: 270px;
   height: 350px;
   background-color: rgb(255, 255, 255);
-  margin-left: 300px;
   margin-top: 15px;
  }
  .price-card_title{
