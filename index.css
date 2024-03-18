@@ -184,12 +184,10 @@
       margin-top: 15px;
       margin-bottom: 5px;
     }
-    .picture{
-     padding-right: 60px;
-    }
     .desktop{
       width: 600px;
       height: auto;
+      padding-right: 60px;
     }
     .aboutus{
       text-align: left;
