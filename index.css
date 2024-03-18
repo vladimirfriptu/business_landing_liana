@@ -196,7 +196,6 @@
       text-align: left;
       background-color: #ff9500;
 text-transform: capitalize;
-margin-bottom: 60px;
 margin-top: 20px;
 padding-bottom: 99px;
     }
@@ -227,12 +226,15 @@ padding-bottom: 99px;
   margin-bottom: 150px;
   background-color: rgb(215, 251, 251);
  }
+ .caption{
+ padding-top: 50px;
+ }
  .price_card{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-start;
-  margin-right: 270px;
+  margin-right: 350px;
  }
  .subtitle{
  text-align: center;
@@ -247,7 +249,6 @@ padding-bottom: 99px;
   height: 350px;
   background-color: rgb(255, 255, 255);
   margin-left: 300px;
-  
  }
  .price-card_title{
   text-align: center;
@@ -278,7 +279,7 @@ padding-bottom: 99px;
   width: 270px;
   height: 375px;
   background-color: rgb(141, 162, 234);
-
+margin-bottom: 75px;
  }
  .price-card_title_white , .price-card_info_white {
   color: #f9f9f9;
