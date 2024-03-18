@@ -228,6 +228,7 @@ padding-bottom: 99px;
  }
  .caption{
  padding-top: 50px;
+ margin-top: 0;
  }
  .price_card{
   display: flex;
@@ -249,6 +250,7 @@ padding-bottom: 99px;
   height: 350px;
   background-color: rgb(255, 255, 255);
   margin-left: 300px;
+  margin-top: 15px;
  }
  .price-card_title{
   text-align: center;
@@ -298,4 +300,5 @@ margin-bottom: 75px;
   width: 270px;
   height: 350px;
   background-color: rgb(255, 255, 255);
+  margin-top: 15px;
  }
