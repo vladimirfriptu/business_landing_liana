@@ -1,5 +1,4 @@
 .choos_your_price{
-    margin-bottom: 150px;
     background-color: rgb(215, 251, 251);
     display: flex;
     flex-direction: column;
@@ -57,7 +56,7 @@
         border: 2px solid rgb(185, 117, 44);
         padding: 10px;
    }
-   .price-card__premium{
+   .price-card_premium{
     border: 3px solid rgb(254, 255, 255);
     width: 270px;
     height: 375px;

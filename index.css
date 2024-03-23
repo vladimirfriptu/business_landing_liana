@@ -222,4 +222,34 @@ flex-wrap: nowrap;
  .industry{
   padding-bottom: 25px;
  }
+ .how_it_works{
+  margin-bottom: 250px;
  
+ }
+ .steps{
+  display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      margin-right: 100px;
+      margin-left: 100px;
+ }
+ .qwerty{
+  display: flex;
+  flex-direction: column;
+  
+ }
+ .headphones{
+  width: 50px;
+  margin-left: 150px;
+ }
+ .photo{
+  width: 50px;
+  margin-left: 150px;
+ }
+ .lorem{
+ text-align: center;
+  margin-left: 50px;
+ }
+ h3{
+  margin-left: 150px;
+ }
