@@ -43,6 +43,7 @@
 
     li a:hover {
       background-color: rgb(241, 145, 20);
+      color: #f9f9f9;
     }
 
     .buylb {
