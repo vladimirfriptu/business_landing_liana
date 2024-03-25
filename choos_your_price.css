@@ -62,6 +62,7 @@
     height: 375px;
     background-color: rgb(141, 162, 234);
   margin-bottom: 75px;
+  padding-top: 25px;
    }
    .price-card_title_white , .price-card_info_white {
     color: #f9f9f9;
