@@ -223,7 +223,7 @@ flex-wrap: nowrap;
   padding-bottom: 25px;
  }
  .how_it_works{
-  margin-bottom: 250px;
+  margin-bottom: 50px;
  
  }
  .steps{
@@ -241,10 +241,14 @@ flex-wrap: nowrap;
  .headphones{
   width: 50px;
   margin-left: 150px;
+  margin-bottom: 70px;
+  margin-top: 35px;
  }
  .photo{
   width: 50px;
   margin-left: 150px;
+  margin-bottom: 70px;
+  margin-top: 35px;
  }
  .lorem{
  text-align: center;
@@ -253,3 +257,34 @@ flex-wrap: nowrap;
  h3{
   margin-left: 150px;
  }
+ .get_start_now{
+  width: 180px;
+      padding: 10px;
+     background-color: #ff9807;
+      color: #ffffff;
+      border: 2px solid rgb(185, 117, 44);
+      margin-left: 650px;
+      margin-top: 35px;
+ }
+ .happy_clients{
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ }
+ .banner{
+  color: #f9f9f9;
+ }
+ .figure{
+  width: 150px;
+  float: left;
+ }
+.piece{
+  border: 2px solid wheat;
+  padding: 25px;
+  background-color: #f9f9f9;
+  padding-bottom: 85px;
+  padding-left: 365px;
+  padding-right: 450px;
+  
+}
