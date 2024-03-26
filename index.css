@@ -303,6 +303,14 @@ flex-wrap: nowrap;
   transition:  box-shadow .2s linear, filter 0.3s;
   filter: grayscale(100%);
 }
+.author{
+  color: #ff9500;
+}
+/*.author, .occupation{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}*/
 .bite{
   border: 2px solid rgb(237, 234, 234);
   background-color: #f9f9f9;
@@ -323,6 +331,7 @@ flex-wrap: nowrap;
    padding-left: 19px;
    padding-right: 17px;
    padding-top: 15px;
+   
 }
 .piece:hover{
   box-shadow:0 0 7px rgb(1, 213, 251);
