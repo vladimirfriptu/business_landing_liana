@@ -294,7 +294,7 @@ flex-wrap: nowrap;
   border: 2px solid rgb(237, 234, 234);
   background-color: #f9f9f9;
   flex-basis: 38%;
-  display: flex;
+  /*display: flex;*/
   margin-left: 35px;
   margin-right: 50px;
   padding-top: 20px;
@@ -306,16 +306,22 @@ flex-wrap: nowrap;
 .author{
   color: #ff9500;
 }
-/*.author, .occupation{
+.author{
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-}*/
+  padding-top: 15px;
+}
+.occupation{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 .bite{
   border: 2px solid rgb(237, 234, 234);
   background-color: #f9f9f9;
   flex-basis: 38%;
-  display: flex;
+ /* display: flex;*/
   margin-left: 35px;
   margin-right: 50px;
   padding-top: 20px;
@@ -328,7 +334,7 @@ flex-wrap: nowrap;
 }
 .content{
   padding-bottom: 5px;
-   padding-left: 19px;
+   padding-left: 150px;
    padding-right: 17px;
    padding-top: 15px;
    
