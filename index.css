@@ -20,19 +20,19 @@
       height: auto;
     }
 
-    nav ul {
+    .drop, .ship {
       list-style: none;
       padding: 0;
       display: flex;
     }
 
-    nav ul li {
+    .drop, .ship, .line {
       display: inline-block;
       margin-right: 1rem;
       gap: 1rem;
     }
 
-    li a {
+    .line a {
       text-decoration: none;
       color: black;
       font-weight: 700;
@@ -41,7 +41,7 @@
       border-radius: 5px;
     }
 
-    li a:hover {
+    .line a:hover {
       background-color: rgb(241, 145, 20);
       color: #f9f9f9;
     }
@@ -347,3 +347,35 @@ flex-wrap: nowrap;
   box-shadow:0 0 7px rgb(234, 7, 117);
   scale: 1.2;
 }
+.sailing{
+  margin-left: 350px;
+  margin-top: 35px;
+}
+.handset{
+  width: 25px;
+  display: flex;
+  margin-left: 600px;
+}
+.phone{
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 55px;
+}
+.phone:hover{
+  text-decoration: underline;
+  color: #05b0ff;
+}  
+.development{
+  display: none;
+}
+@media screen and (max-width: 320px) {
+  body{
+    background-color: aquamarine;
+  }
+  .development{
+ display: block;
+  }
+  h1, h2, div, section, img, nav, header, h4{
+    display: none;
+  }
+ }
