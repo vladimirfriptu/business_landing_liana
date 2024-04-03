@@ -360,9 +360,9 @@ flex-wrap: nowrap;
 }
 .handset{
   width: 15px;
-  
- margin-left: 600px;
+  margin-left: 600px;
 }
+
 .phone{
   text-align: center;
   font-weight: 100;
@@ -392,12 +392,18 @@ flex-wrap: nowrap;
 }
 @media screen and (max-width: 320px) {
   body{
-    background-color: aquamarine;
+    background-color: rgb(104, 225, 247);
   }
   .development{
  display: block;
+ color: #5c5a5a;
+ text-align: center;
+ font-weight: 100;
   }
-  h1, h2, div, section, img, nav, header, h4, .copyright{
+  .gear{
+    display: block;
+  }
+  h1, h2, div, section, nav, header, h4{
     display: none;
   }
  }
