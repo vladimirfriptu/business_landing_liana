@@ -361,11 +361,13 @@ flex-wrap: nowrap;
 .handset{
   width: 15px;
   margin-left: 600px;
+  height: 15px;
 }
 
 .phone{
   text-align: center;
   font-weight: 100;
+  margin: 0;
 }
 .phone:hover{
   text-decoration: underline;
@@ -403,7 +405,7 @@ flex-wrap: nowrap;
   .gear{
     display: block;
   }
-  h1, h2, div, section, nav, header, h4{
+   .header, .buylb, .container, .card, .Service2, .aboutus, .choos_your_price, .how_it_works, .happy_clients, .contactus, .copyright{
     display: none;
   }
  }
