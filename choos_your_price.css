@@ -12,7 +12,7 @@
    .choos_your_price_card{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
    
    }

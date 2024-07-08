@@ -132,6 +132,11 @@
     .request:focus {
       box-shadow: 0 0 5px rgb(7, 230, 234);
     }
+
+  .container{
+    display: none;
+  }
+
     h2,
     h5 {
       display: block;
@@ -222,6 +227,11 @@ flex-wrap: nowrap;
  border: 2px solid aqua;
  border-radius: 5px;
  }
+
+ .choos_your_price{
+  display: none;
+ }
+
  .industry{
   padding-bottom: 25px;
  }
@@ -269,9 +279,13 @@ flex-wrap: nowrap;
       margin-left: 650px;
       margin-top: 35px;
  }
+
+
  .happy_clients{
   background-color: orange;
  }
+
+
  .banner{
   color: #f9f9f9;
   padding-top: 45px;
