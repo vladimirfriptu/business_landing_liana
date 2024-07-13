@@ -64,20 +64,23 @@
     }
     .custom_input{
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
-      background: white;
-      border: solid 1px silver;
       padding-left: 8px;
+      
     }
     .custom_input input{
       background: transparent;
       border: none;
      outline: none;
+     background-color: #f9f9f9;
     }
     .custom_input img{
       width: 14px;
+      display: inline-block;
+      flex-direction: column;
     }
+
     h1 {
       font-weight: bold;
       margin-bottom: 5px;
@@ -106,6 +109,7 @@
       border: 1px solid #ffffff;
       gap: 5px;
     }
+    
 
     form {
       display: flex;
@@ -133,10 +137,10 @@
       box-shadow: 0 0 5px rgb(7, 230, 234);
     }
 
-  .container{
+  /*.container{
     display: none;
   }
-
+*/
     h2,
     h5 {
       display: block;
@@ -187,6 +191,7 @@
      p{
       margin-bottom: 30px;
       margin-top: 5px;
+      color: black;
     }
     h4{
       margin-top: 15px;
@@ -422,4 +427,13 @@ flex-wrap: nowrap;
    .header, .buylb, .container, .card, .Service2, .aboutus, .choos_your_price, .how_it_works, .happy_clients, .contactus, .copyright{
     display: none;
   }
+ }
+ .custom_input_wrapper1 {
+  display: flex;
+  align-items: center;
+ }
+ #custom_input_wrapper1 {
+    background: white;
+    border: solid 1px silver;
+
  }

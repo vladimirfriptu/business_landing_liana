@@ -7,7 +7,7 @@ window.onload = function () {
   input1.setAttribute('placeholder', 'Full Name');
   input1.setAttribute('required', true);
   console.log(input1);
-  const div1 = document.getElementById('custom_input1');
+  const div1 = document.getElementById('custom_input_wrapper1');
   console.log(div1);
   div1.appendChild(input1);
 
@@ -41,10 +41,62 @@ window.onload = function () {
   console.log(div4);
   div4.appendChild(button1);
 
-  button1.addEventListener('click', function () {
+  button1.addEventListener('click', function (event) {
+    event.preventDefault();  // Предотвращение отправки формы
+
+    
+    // Получение данных из полей ввода
+    const name = document.getElementById('order-name').value;
+    const email = document.getElementById('email-address').value;
+    const phone = document.getElementById('phone-number').value;
+    
+    // Очистка полей ввода
+    document.getElementById('order-name').value = '';
+    document.getElementById('email-address').value = '';
+    document.getElementById('phone-number').value = '';
+    
+    //Отображение данных под соответствующими полями ввода
+    const custom_input1 = document.getElementById('custom_input1');
+    const custom_input_display = document.getElementsByClassName('display1');
+    if(name !== ''){
+      if(custom_input_display.length === 0){
+        const nameDisplay = document.createElement('p');
+        nameDisplay.classList.add('display1');
+        custom_input1.appendChild(nameDisplay);
+      }
+
+      document.getElementsByClassName('display1')[0].textContent = `Name: ${name}`;
+    }
+
+    const custom_input2 = document.getElementById('custom_input2');
+    const custom_input_display2 = document.getElementsByClassName('display2');
+    if(email !== ''){
+      if(custom_input_display2.length === 0){
+        const emailDisplay = document.createElement('p');
+        emailDisplay.classList.add('display2');
+        custom_input2.appendChild(emailDisplay);
+      }
+
+      document.getElementsByClassName('display2')[0].textContent = `Email: ${email}`;
+    }
+
+    const custom_input3 = document.getElementById('custom_input3');
+    const custom_input_display3 = document.getElementsByClassName('display3');
+    if(phone !== ''){
+      if(custom_input_display3.length === 0){
+        const telDisplay = document.createElement('p');
+        telDisplay.classList.add('display3');
+        custom_input3.appendChild(telDisplay);
+      }
+
+      document.getElementsByClassName('display3')[0].textContent = `Phone Number: ${phone}`;
+    }
+
+  });
+  /*button1.addEventListener('click', function () {
     const container = document.getElementById('service')
     container.removeAttribute('class')
-  })
+  })*/
 
   const button2 = document.createElement('button');
   button2.textContent = 'READ MORE';
@@ -60,7 +112,7 @@ window.onload = function () {
   })
 
   function abc() {
-    this.style.backround='red';
+    this.style.background='red';
     console.log(this.style)
   }
 
@@ -69,13 +121,40 @@ console.log(user);
   user.forEach(function(element) {
     element.onclick = abc;
   });
-  /*const test = document.querySelectorAll('.test');
 
-function abs() {
-  this.style.background = 'red';
-}
+  const form = document.getElementById('form');
+  console.log(form)
+  form.addEventListener('submit', function(event){
+    event.preventDefault()
+    const formData = new FormData(event.target)
+    const userName = formData.get('order-name')
+    console.log( userName)
 
-test.forEach(function (element) {
-  element.onclick = abs;
-});*/
+    const userEmail = formData.get('email-address')
+    console.log( userEmail)
+
+    const userTel = formData.get('phone-number')
+    console.log( userTel)
+  }) 
+
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggleButton = document.getElementById('toggleButton');
+    const aboutText = document.getElementById('aboutText');
+  
+    let isVisible = true; // Флаг для отслеживания видимости текста
+  
+    toggleButton.addEventListener('click', function() {
+      isVisible = !isVisible; // Инвертируем состояние флага
+  
+      if (isVisible) {
+        aboutText.style.display = 'block'; // Показываем текст
+        toggleButton.textContent = 'HIDE TEXT'; // Меняем текст кнопки
+      } else {
+        aboutText.style.display = 'none'; // Скрываем текст
+        toggleButton.textContent = 'READ MORE'; // Меняем текст кнопки
+      }
+    });
+  });
+  
 };
